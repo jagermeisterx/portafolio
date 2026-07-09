@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // 1. Inicialización ÚNICA
   emailjs.init({
-    publicKey: "lzCn6w5XXaeY4JSYA",
+    publicKey: "4V3iqvVRarVQ6Xsu4",
   });
 
   const formulario = document.getElementById("contactForm");
@@ -243,8 +243,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // 2. Envío del formulario
         // Nota: Asegúrate que los 'name' de tus inputs coincidan con tu template en EmailJS
         await emailjs.sendForm(
-          "service_mgtl534", 
-          "template_i50xyee", 
+          "service_dip67ba", 
+          "template_n1tkhzc", 
           this
         );
 
